@@ -20,6 +20,7 @@ int AVLTree<E>::height(Node *n) const {
     return n == nullptr ? -1 : n->hauteur;
 }
 
+
 template<typename E>
 int AVLTree<E>::getBalance(Node *n) {
     if (n == nullptr) return 0;
